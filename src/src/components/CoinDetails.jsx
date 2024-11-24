@@ -47,7 +47,7 @@ const CoinDetail = () => {
 			}
 		};
 		fetchCoinDetails();
-	}, [id, isAPILimitError]);
+	}, [id, isAPILimitError, setIsAPILimitIsError]);
 
 	console.log(timeframe);
 	console.log(priceHistory);
